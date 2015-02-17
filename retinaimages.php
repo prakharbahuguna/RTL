@@ -11,7 +11,7 @@
   $source_file     = $document_root.$requested_uri;
   $source_ext      = strtolower(pathinfo($source_file, PATHINFO_EXTENSION));
   $retina_file     = pathinfo($source_file, PATHINFO_DIRNAME).'/'.pathinfo($source_file, PATHINFO_FILENAME).'@2x.'.pathinfo($source_file, PATHINFO_EXTENSION);
-  $cache_directive = 'must-revalidate';
+  $cache_directive = 'no-transform';
 
   // Image was requested
   if (in_array($source_ext, array('png', 'gif', 'jpg', 'jpeg', 'bmp')))
