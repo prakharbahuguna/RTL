@@ -1,0 +1,8 @@
+# robotstxt.org/
+
+User-agent: *
+Allow: /
+Disallow: /retinaimages.php
+Disallow: /compress.php
+Sitemap: http://www.rowantechnologies.co.uk/sitemap.xml
+Host: www.rowantechnologies.co.uk

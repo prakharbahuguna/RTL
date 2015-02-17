@@ -1,0 +1,12 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Prakhar Bahuguna -- Designer and Developer
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Bootstrap, HTML5 Boilerplate
+    Retina Images, Precompress (developed by Prakhar)
