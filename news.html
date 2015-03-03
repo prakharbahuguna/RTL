@@ -8,17 +8,16 @@
       section.row
       {
         border-top: 1px solid #555;
-        padding-top: 20px;
       }
-      figure
-      {
-        float: left;
-        margin: 0 30px 14px 0;
-        max-width: 44%;
-      }
-      h2
-      {
-        margin-top: 0;
+      /* Put two figures side by side on desktop displays*/
+      @media (min-width: 992px) {
+        figure
+        {
+          float: left;
+          margin-left: 0;
+          margin-right: 20px;
+          max-width: 46%;
+        }
       }
     </style>
   </head>
@@ -34,7 +33,7 @@
           <li><a href="#spring2013" data-toggle="tab">Spring 2013</a></li>
           <li><a href="#autumn2012" data-toggle="tab">Autumn 2012</a></li>
         </ul>
-        <div class="tab-content">
+        <div class="tab-content col-md-12">
           <section class="tab-pane fade in out active" id="autumn2014">
             <h1>Autumn News 2014</h1>
             <section class="row">
