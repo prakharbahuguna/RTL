@@ -2,6 +2,24 @@
 <html lang="en">
   <head>
     <!--#include file="inc/meta.html" -->
+    <style>
+      @media (min-width: 992px) {
+        header, aside {
+          height: 670px;
+        }
+        aside {
+          overflow-y: auto;
+        }
+      }
+      @media (min-width: 1200px) {
+        header, aside {
+          height: 740px;
+        }
+        aside {
+          overflow-y: auto;
+        }
+      }
+    </style>
     <title>Rowan Technologies Ltd :: Home</title>
   </head>
 
@@ -10,7 +28,7 @@
     <main class="container">
 
       <section class="row">
-        <header class="jumbotron col-md-8"  style="height: 740px">
+        <header class="jumbotron col-md-8">
           <h1>Welcome to Rowan Technologies</h1>
           <p>
             Rowan Technologies Ltd, established in 1991, provides a diverse range of services and systems related to
@@ -70,7 +88,7 @@
 
         </header>
 
-        <aside class="col-md-4 well" style="height: 740px; overflow-y: auto">
+        <aside class="col-md-4 well">
           <h1>Latest News</h1>
           <p>
             RTL have just shipped another full thermal and corrosion scanner to South Korea. This is the sixth scanner
