@@ -5486,6 +5486,8 @@ a.thumbnail.active {
 }
 .nav-tabs > li > a {
   font-size: 18px;
+  border-color: #eee;
+  border-bottom-color: transparent;
 }
 body {
   padding-top: 60px;
