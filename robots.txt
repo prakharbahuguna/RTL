@@ -3,4 +3,5 @@
 User-agent: *
 Allow: /
 Sitemap: http://rowantechnologies.co.uk/sitemap.xml
+Sitemap: http://rowantechnologies.co.uk/image-sitemap.xml
 Host: rowantechnologies.co.uk
