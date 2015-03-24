@@ -3,92 +3,155 @@
   <head>
     <!--#include file="inc/meta.html" -->
     <title>Rowan Technologies Ltd :: Industrial Plant Monitoring</title>
-    <script src="js/tabnav.min.js"></script>
   </head>
 
   <body>
     <!--#include file="inc/nav.html" -->
-    <div class="container">
-      <div class="tabbable row-fluid">
+    <main class="container">
+      <div class="tabbable row">
         <ul class="nav nav-tabs">
-          <li class="active"><a href="#overview" data-toggle="tab">Overview</a></li>
-          <li><a href="#thermal" data-toggle="tab">Thermal Scanner Systems</a></li>
-          <li><a href="#corrosion" data-toggle="tab">Corrosion Scanner Systems</a></li>
-          <li><a href="#atc" data-toggle="tab">ATC Systems</a></li>
-          <li><a href="#probe" data-toggle="tab">Corrosion Probe Systems</a></li>
+          <li class="active"><a href="#overview" data-toggle="tab" role="tab" aria-controls="overview">Overview</a></li>
+          <li><a href="#thermal" data-toggle="tab" role="tab" aria-controls="thermal">Thermal Scanner Systems</a></li>
+          <li><a href="#corrosion" data-toggle="tab" role="tab" aria-controls="corrosion">Corrosion Scanner Systems</a></li>
+          <li><a href="#ahf" data-toggle="tab" role="tab" aria-controls="ahf">AHF™ (Active Heat Flux) Systems</a></li>
+          <li><a href="#probe" data-toggle="tab" role="tab" aria-controls="probe">Corrosion Probe Systems</a></li>
         </ul>
-        <div class="tab-content">
+        <div class="tab-content col-md-12">
           <section class="tab-pane fade in out active" id="overview">
-            <article class="span7">
+            <article class="col-md-7">
+              <h1>Systems Overview</h1>
+              <p>
+                RTL produces a range of systems for corrosion and thermal monitoring of both high and low temperature
+                industrial plant including power generation, incineration and heat recovery boilers. However, the
+                systems are applicable to many other industrial areas where corrosion is a problem. We have over 20
+                year's experience in system design and installation and they can be tailored to suit individual
+                applications.
+              </p>
+
+              <p>
+                Our scanner technology and new AHF (Active Heat Flux) systems are primarily designed to directly monitor
+                fireside surface corrosion/erosion/cracking and thermal behaviour of boiler walls using sensors welded
+                to external (cold-side) surfaces. Our insertion probes monitor corrosion/erosion by simulating the
+                conditions of normally inaccessible internal boiler tubing. All three systems can be inter-connected.
+                The schematic below illustrates the monitoring options for a large power generation boiler:
+              </p>
+
+              <img src="img/diagrams/monitoring_options.png" width="460" height="225" alt="Monitoring options for a large power generation boiler">
+
               <h1>Scanner Systems</h1>
               <p>
-                Rowan Technologies' patented scanner systems have online monitoring and mapping capabilities, tailored
-                for both low and high temperature industrial plant, including power generation and incineration
-                boilers. These include:
+                Scanners can be used for a variety of applications for monitoring metal wall integrity and thermal
+                behaviour, including boilers, pressure vessels and pipelines. Systems are available in two main
+                configurations:
               </p>
 
               <ul>
-                <li>Corrosion, erosion and crack monitoring</li>
-                <li>Heat flux and fireside tube wall temperatures</li>
-                <li>Tube wall slagging, fouling and cleaning</li>
-                <li>Identifying damaging temperature-related tube wall
-                    conditions e.g. boiler flame impingement.</li>
+                <li>
+                  <strong><a href="#thermal" class="tabtrigger">Thermal scanners (TScanner™)</a></strong> for monitoring
+                  surface temperatures and/or heat flux, providing insights into wall slagging, fouling and cleaning.
+                </li>
+                <li>
+                  <strong><a href="#corrosion" class="tabtrigger">Thermal and corrosion scanners
+                  (TCScanner™)</a></strong> for monitoring corrosion, erosion or crack propagation and these also have
+                  in-built thermal monitoring capability. For corrosion/erosion measurements, signals are passed through
+                  the tube wall between adjacent sensor locations to provide an average rate of corrosion in that area
+                  of wall.
+                </li>
               </ul>
 
               <p>
-                The systems use arrays of sensors, directly attached to external plant surfaces, and are capable of
-                mapping large areas, or be used for monitoring smaller, localised areas. They are non-intrusive, as the
-                item of plant itself becomes the 'sensor', avoiding the requirement for probe entry ports or tube
-                removal, especially important where pressure vessels are concerned.
+                Arrays of external (cold-side) sensors monitor and map large areas of wall. These sensors are
+                non-intrusive, removing the need for probe entry ports or tube removal, especially important where
+                pressure vessels are concerned. For corrosion/erosion measurements, signals are passed through the tube
+                wall between adjacent sensors to provide an average rate of corrosion at that location.
               </p>
 
               <p>
-                The first scanner system was installed in 1999. Our longest-serving system was installed in 2001 and is
-                now set to continue monitoring until at least 2013, a testament to the system's long-term reliability.
+                Larger systems, capable of monitoring all four walls of the largest power station boilers, are supplied
+                as multi-enclosure, distributed configurations. Newly-developed smaller scanner systems (Mini-TC
+                Scanners™) are also now available. These systems have on-board computing power and operate from a single
+                small enclosure. They are simple to install and are designed for monitoring smaller areas of wall.
               </p>
 
               <p>
-                Systems are available for dedicated thermal monitoring or for corrosion, erosion, crack monitoring (with
-                in-built thermal monitoring capability).
+                Evaluation systems are available that can be enlarged at a later date and portable scanner systems are
+                also available for periodic measurements.
+              </p>
+
+
+              <h2>Active Heat Flux (AHF™) Monitors - with in-built Corrosion Detection</h2>
+              <p>
+                RTL's <strong><a href="#ahf" class="tabtrigger">new AHF monitors</a></strong> are small
+                fully-independent units with on-board computing power. These recently-developed systems are termed
+                'active' because they apply signals through the tube wall, not just for corrosion measurements (as with
+                scanners) but also for heat flux measurements. This new measurement approach offers enhanced measurement
+                quality.
               </p>
 
               <p>
-                As well as fixed systems for continuous monitoring, portable systems are also available for periodic
-                measurements. For our fixed scanner technology, we can supply small evaluation systems that can be
-                extended at a later date to monitor much larger areas.
-              </p>
-
-              <h1>Corrosion Probe Systems</h1>
-              <p>
-                Our range of probe systems for industrial and boiler plant provide information on corrosion/erosion
-                rates at specific locations. Our VTER probe technology ultimately led to the development of our scanner
-                systems, above.
+                They use a 'focused' approach to monitoring: all measurements taking place around a small area of tube
+                wall, typically a single tube, as compared to the 'whole wall' approach, using rectangular arrays of
+                sensors, normally used by the scanners. They can be used in place of intrusive heat flux probes, so
+                avoiding the complexity and expense of tube removal and overcoming the risk of tube failure.
               </p>
 
               <p>
-                Corrosion probes are available with temperature controlled corrosion elements. Air cooling is used to
-                accurately control the element temperatures.
+                RTL can also supply systems that combine the benefits of both scanners and AHF systems, providing 'the
+                best of both worlds' for optimum data quality. These provide flexibility in choosing either point or
+                average (i.e. point-to-point) corrosion measurements.
               </p>
 
-              <h1>Incineration and Waste Recovery Boilers</h1>
+              <table class="table table-bordered">
+                <caption>The table below compares the attributes of AHF and scanner systems:</caption>
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>AHF Monitors</th>
+                    <th>Scanners</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>Monitoring Configuration</th>
+                    <td>Point locations</td>
+                    <td>Whole areas using sensor arrays</td>
+                  </tr>
+                  <tr>
+                    <th>Thermal Monitoring</th>
+                    <td>Active and passive measurements.</td>
+                    <td>Passive, sequential measurements across all sensor locations.</td>
+                  </tr>
+                  <tr>
+                    <th>Corrosion Monitoring</th>
+                    <td>Highly-focused measurements at point locations.</td>
+                    <td>Measurements between adjacent sensor locations.</td>
+                  </tr>
+                  <tr>
+                    <th>Hardware Configuration</th>
+                    <td>Small, fully-independent units.</td>
+                    <td>Multi-enclosure configurations or small fully-independent units.</td>
+                  </tr>
+                  <tr>
+                    <th>Installation and Commissioning</th>
+                    <td>Can be self-installed. Minimal installation costs.</td>
+                    <td>Installation by local contractors. RTL oversees commissioning of larger systems.</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <h2>Corrosion Probe Systems</h2>
               <p>
-                Systems are also available for incineration and waste recovery boilers to detect and monitor the
-                build-up of waste slag on the boiler walls through the use of our thermal monitoring technology. The
-                rate of corrosion can also be measured in tandem. These images of a metals recovery boiler were taken
-                at the same time as the thermal data was recorded.
+                RTL's range of <strong><a href="#probe" class="tabtrigger">insertion probes</a></strong> provide
+                information on corrosion/erosion rates of 'inaccessible' tubing; for example the superheater and
+                reheater tubing of boilers. They can be used as an investigative tool to identify when corrosion occurs,
+                for examining the effect of changes in boiler operation on corrosion rates or to evaluate the corrosion
+                performance of different alloys. Air cooling is used to accurately control the temperature of the
+                probes' corrosion elements to that of the tubing under investigation.
               </p>
-              <div style="float: left; width: 330px; margin-right: 10px">
-                <img src="img/photos/umicore-slag.jpg" alt="Showing slag build-up" width="360" height="270">
-                <p style="text-align: center">Showing slag build-up</p>
-              </div>
-              <div style="float: left; width: 330px;">
-                <img src="img/photos/umicore-slag2.jpg" alt="Showing natural slag shedding" width="360" height="270">
-                <p style="text-align: center">Showing natural slag shedding</p>
-              </div>
 
             </article>
 
-            <aside class="span5">
+            <aside class="col-md-5">
               <figure>
                 <img src="img/photos/drax_power_station.jpg" alt="Scanner Installation - Drax Power Station, North Yorkshire" width="360" height="270">
                 <figcaption>Scanner Installations - Drax Power Station</figcaption>
@@ -107,8 +170,8 @@
 
 
           <section class="tab-pane fade in out" id="thermal">
-            <article class="span7">
-              <h1>NTScan&#8482; Thermal Scanner Systems</h1>
+            <article class="col-md-7">
+              <h1>TScanner™ Thermal Scanner Systems</h1>
               <p>
                 The thermal monitoring capabilities of the scanner systems, originally developed for use with our
                 corrosion/erosion scanner systems, have been refined to create systems for dedicated thermal monitoring.
@@ -124,7 +187,7 @@
                 temperatures - these parameters being derived from measured external surface temperatures.
               </p>
 
-              <img src="img/diagrams/ml_electrodes_and_map.jpg" width="500" height="177" alt="ML lectrodes and thermal map">
+              <img src="img/diagrams/ml_electrodes_and_map.jpg" width="500" height="177" alt="ML lectrodes and thermal map" data-no-retina>
 
               <p>
                 The systems allow easy interfacing with plant information systems and a dedicated software package
@@ -178,9 +241,16 @@
                 <li>Systems can be readily removed for boiler maintenance.</li>
               </ul>
 
-              <a href="pdf/brochure/thermal_scanner_brochure.pdf" class="btn btn-info">
-                View thermal scanner systems brochure <i class="icon-file"></i>
-              </a>
+              <p>
+                <a href="pdf/brochure/thermal_scanner_brochure.pdf" target="_blank" class="btn btn-info" role="button">
+                  View thermal scanner systems brochure (for large systems)<span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                </a>
+              </p>
+              <p>
+                <a href="pdf/brochure/mini_scanner_brochure.pdf" target="_blank" class="btn btn-info" role="button">
+                  View mini-scanner systems brochure (for smaller installations)<span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                </a>
+              </p>
 
               <h2>Demonstration Videos</h2>
               <p>
@@ -192,21 +262,21 @@
               </p>
 
               <ul class="thumbnails">
-                <li class="span6">
+                <li style="margin-right: 10px">
                   <a href="#video1" class="thumbnail" data-toggle="modal">
-                    <img src="//img.youtube.com/vi/jLs-gZkqccw/mqdefault.jpg" width="320" height="180" alt="Flame Impingement">
+                    <img src="//img.youtube.com/vi/jLs-gZkqccw/mqdefault.jpg" width="320" height="180" alt="Flame Impingement" data-no-retina>
                     <h4 class="caption">Flame Impingement</h4>
                   </a>
                 </li>
-                <li class="span6">
+                <li>
                   <a href="#video2" class="thumbnail" data-toggle="modal">
-                    <img src="//img.youtube.com/vi/8IanXq1Z6Nw/mqdefault.jpg" width="320" height="180" alt="Sootblowing Test">
+                    <img src="//img.youtube.com/vi/8IanXq1Z6Nw/mqdefault.jpg" width="320" height="180" alt="Sootblowing Test" data-no-retina>
                     <h4 class="caption">Sootblowing Tests</h4>
                   </a>
                 </li>
-                <li class="span6" style="margin-left: 0">
+                <li>
                   <a href="#video3" class="thumbnail" data-toggle="modal">
-                    <img src="//img.youtube.com/vi/t1NKllV5wnI/mqdefault.jpg" width="320" height="180" alt="Natural Slag Shedding">
+                    <img src="//img.youtube.com/vi/t1NKllV5wnI/mqdefault.jpg" width="320" height="180" alt="Natural Slag Shedding" data-no-retina>
                     <h4 class="caption">Natural Slag Shedding</h4>
                   </a>
                 </li>
@@ -216,22 +286,22 @@
                 <h2>Further Reading</h2>
                 <p>
                   Power Engineering International Scanner Article - May 2010<br>
-                  <a href="pdf/paper/power_engineering_scanner_article_may10.pdf" class="btn btn-info">
-                    View PDF <i class="icon-file"></i>
+                  <a href="pdf/paper/power_engineering_scanner_article_may10.pdf" target="_blank" class="btn btn-info" role="button">
+                    View PDF <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
                   </a>
                 </p>
                 <p>
                   Non-Intrusive Scanners for Monitoring the Thermal Conditions of
                   Furnace Walls - Recent Applications<br>
                   <small>B.J. Robbins, D.M. Farrell, C.J. Wilkins</small><br>
-                  <a href="pdf/paper/rtl_thermal_scanner_paper_nov09.pdf" class="btn btn-info">
-                    View PDF <i class="icon-file"></i>
+                  <a href="pdf/paper/rtl_thermal_scanner_paper_nov09.pdf" target="_blank" class="btn btn-info" role="button">
+                    View PDF <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
                   </a>
                 </p>
               </aside>
             </article>
 
-            <aside class="span5">
+            <aside class="col-md-5">
               <figure>
                 <img src="img/photos/martin_lake_power_plant.jpg" alt="Scanner Installation - Martin Lake Supercritical Power Plant, Texas" width="360" height="270">
                 <figcaption>Scanner Installation - Martin Lake Supercritical Power Plant, Texas</figcaption>
@@ -240,39 +310,50 @@
                 <img src="img/photos/brunner_island_power_plant.jpg" alt="Scanner Installation - Brunner Island Power Plant, Pennsylvania, US" width="360" height="270">
                 <figcaption>Scanner Installation - Brunner Island Power Plant, Pennsylvania, US</figcaption>
               </figure>
-              <figure style="text-align: center">
+              <figure>
                 <img src="img/diagrams/furnace_wall_flame_impingement.png" alt="Furnace Wall Flame Impingement" width="360" height="270" style="box-shadow: none">
                 <figcaption>Furnace Wall Flame Impingement</figcaption>
               </figure>
             </aside>
 
-            <div class="modal hide fade" id="video1">
-              <div class="modal-body">
-                <iframe width="480" height="360" src="//www.youtube-nocookie.com/embed/jLs-gZkqccw?rel=0&html5=1"></iframe>
-                <p>
-                  The video above shows an example of flame impingement on a 800MW supercritical boiler wall in the US.
-                  The scanner electrode matrix is 7 x 13 electrode locations. Brighter colours represent higher fireside
-                  tube wall temperatures (purple (800F) to white (1200F and above)).
-                </p>
+            <div class="modal fade" id="video1">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <iframe width="480" height="360" src="//www.youtube-nocookie.com/embed/jLs-gZkqccw?rel=0&html5=1"></iframe>
+                    <p>
+                      The video above shows an example of flame impingement on a 800MW supercritical boiler wall in the US.
+                      The scanner electrode matrix is 7 x 13 electrode locations. Brighter colours represent higher fireside
+                      tube wall temperatures (purple (800F) to white (1200F and above)).
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div class="modal hide fade" id="video2">
-              <div class="modal-body">
-                <iframe width="480" height="360" src="//www.youtube-nocookie.com/embed/8IanXq1Z6Nw?rel=0&html5=1"></iframe>
-                <p>
-                  Improved heat transfer, as a result of soot-blowing activity on a 800MW supercritical boiler wall, can
-                  be seen in the video above. The scanner electrode matrix is 9 x 9 locations.
-                </p>
+            <div class="modal fade" id="video2">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <iframe width="480" height="360" src="//www.youtube-nocookie.com/embed/8IanXq1Z6Nw?rel=0&html5=1"></iframe>
+                    <p>
+                      Improved heat transfer, as a result of soot-blowing activity on a 800MW supercritical boiler wall, can be seen in the video above. The scanner electrode matrix is 9 x 9 locations.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div class="modal hide fade" id="video3">
-              <div class="modal-body">
-                <iframe width="480" height="360" src="//www.youtube-nocookie.com/embed/t1NKllV5wnI?rel=0&html5=1"></iframe>
-                <p>
-                  An example of natural slag shedding is presented in this next map sequence (7 x 13 electrode matrix)
-                </p>
+            <div class="modal fade" id="video3">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <iframe width="480" height="360" src="//www.youtube-nocookie.com/embed/t1NKllV5wnI?rel=0&html5=1"></iframe>
+                    <p>
+                      An example of natural slag shedding is presented in this next map sequence (7 x 13 electrode matrix)
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -280,7 +361,7 @@
 
 
           <section class="tab-pane fade in out" id="corrosion">
-            <article class="span7">
+            <article class="col-md-7">
               <h1>Corrosion, Erosion and Crack Monitoring Systems</h1>
               <p>
                 These high-accuracy systems have evolved from the well-established electrical resistance technique where
@@ -296,7 +377,7 @@
                 calculated and mapped.
               </p>
 
-              <img src="img/diagrams/tube_wall_and_corrosion.png" width="600" height="218" alt="Tube wall corrosion rate map">
+              <img src="img/diagrams/tube_wall_and_corrosion.png" width="600" height="218" alt="Tube wall corrosion rate map" data-no-retina>
 
               <p>
                 A specialised version of the scanner technology was developed for use on Electric Power Research
@@ -312,32 +393,40 @@
                 integrity monitoring is not a requirement.
               </p>
 
-              <p>The scanner systems take two forms:</p>
+              <p>The scanner systems take three forms:</p>
 
-              <h3>Fixed systems for long-term continuous monitoring</h3>
+              <h3>Large, distributed systems for long-term continuous monitoring</h3>
               <p>
                 These have a central data logger and control unit, which can be positioned some distance from the
                 monitoring area(s), and can handle up to four monitoring areas with a total of over 500 sensor
                 locations. These systems were originally developed with the help of UK government funding in the 1990s.
-                Fixed systems have been installed on both conventional and FBC boilers for the monitoring of corrosion
-                and on two super- critical boilers in the USA, for the monitoring of crack growth on weld-overlaid
-                boiler tubes in combination with mapping of the boiler walls' thermal characteristics.<br>
-                <a href="pdf/brochure/fixed_system_scanner_brochure.pdf" class="btn btn-info">
-                  View fixed systems brochure <i class="icon-file"></i>
+                Systems have been installed on conventional sub-critical, super-critical and FBC boilers in Europe, the
+                US and Asia.<br>
+                <a href="pdf/brochure/fixed_system_scanner_brochure.pdf" target="_blank" class="btn btn-info" role="button">
+                  View fixed systems brochure <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
                 </a>
               </p>
 
+              <h3>New smaller Mini-TC Scanner™ systems for long-term continuous monitoring</h3>
+              <p>
+                These new, fully-independent systems are designed for smaller monitoring areas of up to 50 or more
+                sensor locations. All electronics are housed in a single enclosure positioned close to the monitoring
+                area, have an on-board computer and are powered by a single low-voltage DC supply. This compact,
+                self-contained design helps to keep installation costs to an absolute minimum.<br>
+                <a href="pdf/brochure/mini_scanner_brochure.pdf" target="_blank" class="btn btn-info" role="button">
+                  View Mini-TC Scanner Brochure <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                </a>
               <h3>Portable systems for periodic monitoring</h3>
               <p>
-                These have been developed for applications where a fixed system may not be the most appropriate or cost-
-                effective means of monitoring. An example may be where there is a requirement for monitoring at a number
-                of areas within a chemical complex or oil refinery. Sensors are permanently fixed at each monitoring
-                location with associated cabling running back to a small local site box. This arrangement is suitable
-                for hazardous areas, as power is only supplied when the portable components are connected, when
+                These have been developed for applications where a fixed system may not be the most appropriate or
+                cost-effective means of monitoring. An example may be where there is a requirement for monitoring at a
+                number of areas within a chemical complex or oil refinery. Sensors are permanently fixed at each
+                monitoring location with associated cabling running back to a small local site box. This arrangement is
+                suitable for hazardous areas, as power is only supplied when the portable components are connected, when
                 conditions are safe to do so. There is no limit to the number of monitoring areas that may be monitored
                 with a single set of portable equipment.<br>
-                <a href="pdf/brochure/portable_system_scanner_brochure.pdf" class="btn btn-info">
-                  View portable systems brochure <i class="icon-file"></i>
+                <a href="pdf/brochure/portable_system_scanner_brochure.pdf" target="_blank" class="btn btn-info" role="button">
+                  View portable systems brochure <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
                 </a>
               </p>
 
@@ -369,8 +458,8 @@
                 <h2>Further Reading</h2>
                 <p>
                   Power Engineering International Scanner section - May 2010<br>
-                  <a href="pdf/paper/power_engineering_scanner_article_may10.pdf" class="btn btn-info">
-                    View PDF <i class="icon-file"></i>
+                  <a href="pdf/paper/power_engineering_scanner_article_may10.pdf" target="_blank" class="btn btn-info" role="button">
+                    View PDF <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
                   </a>
                 </p>
 
@@ -380,8 +469,8 @@
                     D.M. Farrell, B.J.Robbins (RTL), P. Sikka, M. Seaman (Drax Power Ltd), Conference on High
                     Temperature Plant and Life Extension, Cambridge 2004.
                   </small><br>
-                  <a href="pdf/paper/rtl_scanner_paper_pf_fired_boilers.pdf" class="btn btn-info">
-                    View PDF <i class="icon-file"></i>
+                  <a href="pdf/paper/rtl_scanner_paper_pf_fired_boilers.pdf" target="_blank" class="btn btn-info" role="button">
+                    View PDF <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
                   </a>
                 </p>
 
@@ -390,8 +479,8 @@
                   <small>
                     B.J. Robbins and D.M. Farrell (RTL), J. Stallings and S. Cardoso (EPRI), HIDA 5 Conference 2010
                   </small><br>
-                  <a href="pdf/paper/hida5_conference_paper.pdf" class="btn btn-info">
-                    View PDF <i class="icon-file"></i>
+                  <a href="pdf/paper/hida5_conference_paper.pdf" target="_blank" class="btn btn-info" role="button">
+                    View PDF <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
                   </a>
                 </p>
 
@@ -401,15 +490,15 @@
                   <small>
                     B.J. Robbins, D.M. Farrell (RTL), J. Stallings, S. Cardoso, W. Bakker (EPRI), NDT Conference 2008.
                   </small><br>
-                  <a href="pdf/paper/ndt_2008_paper.pdf" class="btn btn-info">
-                    View PDF <i class="icon-file"></i>
+                  <a href="pdf/paper/ndt_2008_paper.pdf" target="_blank" class="btn btn-info" role="button">
+                    View PDF <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
                   </a>
                 </p>
 
               </aside>
             </article>
 
-            <aside class="span5">
+            <aside class="col-md-5">
               <figure>
                 <img src="img/photos/scanner_cabinets_boiler.jpg" alt="Scanner Cabinets - Supercritical Power Generation Boiler" width="360" height="270">
                 <figcaption>Scanner Cabinets - Supercritical Power Generation Boiler</figcaption>
@@ -434,31 +523,64 @@
 
           </section>
 
-          <section class="tab-pane fade in out" id="atc">
-            <article class="span7">
-              <h1>ATC&#8482; Systems</h1>
-              <p>Rowan Technologies' new Active Thermal and Corrosion (ATC) monitoring systems are small dual-purpose systems for monitoring both tube wall heat flux and fireside tube wall corrosion of boiler membrane walls. The systems are 'active' because they apply signals through the whole tube circumference during the measurement processes.</p>
+          <section class="tab-pane fade in out" id="ahf">
+            <article class="col-md-7">
+              <h1>AHF™ Systems</h1>
+              <p>
+                Rowan Technologies' new Active Heat Flux (AHF) monitors are small dual-purpose systems for monitoring
+                both tube wall heat flux and fireside tube wall corrosion of boiler membrane walls. These non-intrusive
+                systems are 'active' because they apply signals through the whole tube circumference to determine both
+                wall temperatures and tube wall thinning. This may be compared to intrusive heat flux monitors, where
+                thermocouples are buried in the fireside wall.
+              </p>
 
-              <p>These systems have evolved from our scanner technology; included within the ATC systems are refinements of some of the scanner's techniques. ATC systems use a 'focused' approach: all measurements taking place around a small area of tube wall, typically a single tube, as compared to the 'whole wall' approach using rectangular arrays of sensors normally used by the scanners. Just like the scanner sensors, the ATC sensors are welded directly to the cold-side wall surfaces - no access through the boiler wall is required. Our <a href="#overview" class="tabtrigger">overview</a> page summarises the key attributes of both systems.</p>
+              <p>
+                These systems have evolved from our scanner technology: included within the AHF monitors are refinements
+                of some of the scanner's techniques. AHF monitors use a 'focused' approach: all measurements taking
+                place around a small area of tube wall, typically a single tube, as compared to the 'whole wall'
+                approach, using rectangular arrays of sensors, normally used by the scanners. Just like the scanner
+                sensors, the ATC sensors are welded directly to the cold-side wall surfaces - no access through the
+                boiler wall is required. Our <a href="#overview" class="tabtrigger">overview</a> page summarises the key
+                attributes of both systems.
+              </p>
 
-              <h2>Key Features:</h2>
+              <p>The key features of the AHF monitors are:</p>
               <ul>
                 <li>They are fully autonomous, using an on-board computer for system control, data acquisition and data processing. A separate data logger is not necessary.</li>
                 <li>All hardware is contained in single small enclosure, powered by a low-voltage DC supply.</li>
-                <li>Thermals and corrosion data can be delivered to plant information systems in a variety of ways: 0-10V, 4-20mA, serial communications or Ethernet.</li>
-                <li>The hardware can be connected other ATC enclosures to produce a single larger system that communicates with a central PC (e.g. in a control room) for data analysis and display.</li>
-                <li>The ATC hardware can be integrated into scanner systems in the same way as our corrosion probes, to form part of a larger multi-purpose monitoring system.</li>
+                <li>Thermal and corrosion data can be delivered to plant information systems in a variety of ways: 0-10V, 4-20mA, serial communications or Ethernet.</li>
+                <li>The hardware can be connected other AHF enclosures to produce a single larger system that communicates with a central PC (e.g. in a control room) for data analysis and display.</li>
+                <li>The ATC 'base unit' permits monitoring of one or two point locations, however additional multiplexing allows for multiple-point monitoring i.e. three or more locations, close to the base unit.</li>
+                <li>They can be integrated into scanner systems in the same way as our corrosion probes, to form part of a larger multi-purpose monitoring system.</li>
               </ul>
 
-              <p>In summary, the ATC sensors enhance the range of possibilities from within RTL's monitoring portfolio, which now encompasses single point measurements through to whole wall monitoring. They provide a level of highly-focused monitoring not previously available. The option to install stand-alone units means that installation costs for RTL's monitoring technology can start from an extremely low base.<br>
-                <a href="pdf/brochure/atc_brochure.pdf" class="btn btn-info">
-                  View ATC system brochure <i class="icon-file"></i>
+              <p>
+                In summary, the AHF sensors enhance the range of possibilities from within RTL's monitoring portfolio,
+                which now encompasses single point measurements through to whole wall monitoring. They provide a level
+                of highly-focused monitoring not previously available. The option to install stand-alone units means
+                that installation costs for RTL's monitoring technology can start from an extremely low base.<br>
+                <a href="pdf/brochure/ahf_brochure.pdf" target="_blank" class="btn btn-info" role="button">
+                  View AHF system brochure <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
                 </a></p>
             </article>
+            <aside class="col-md-5">
+              <figure>
+                <img src="img/photos/ahf_enclosure_testing.jpg" alt="AHF Enclosure Testing" width="360" height="270">
+                <figcaption>AHF Enclosure Testing</figcaption>
+              </figure>
+              <figure>
+                <img src="img/photos/finite_element_heat_flux.jpg" alt="Finite Element Modelling - Tube Wall Heat Flux" width="360" height="270">
+                <figcaption>Finite Element Modelling - Tube Wall Heat Flux</figcaption>
+              </figure>
+              <figure>
+                <img src="img/photos/ahf_boiler_wall_sensor.jpg" alt="Boiler Wall Sensor Location" width="360" height="417">
+                <figcaption>Boiler Wall Sensor Location</figcaption>
+              </figure>
+            </aside>
           </section>
 
           <section class="tab-pane fade in out" id="probe">
-            <article class="span7">
+            <article class="col-md-7">
               <h1>Corrosion Probe Systems</h1>
               <h2>VTER Probe Systems</h2>
               <p>
@@ -483,8 +605,8 @@
               <p>
                 These systems formed the foundations for the development of our electrical resistance scanner
                 technology.<br>
-                <a href="pdf/brochure/vter_probe_brochure.pdf" class="btn btn-info">
-                  View VTER brochure <i class="icon-file"></i>
+                <a href="pdf/brochure/vter_probe_brochure.pdf" target="_blank" class="btn btn-info" role="button">
+                  View VTER brochure <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
                 </a>
               </p>
 
@@ -525,15 +647,15 @@
                   Online Monitoring of Furnace Wall and Superheater Corrosion in Power Generation Boilers<br>
                   <small>D.M. Farrell, B.J. Robbins, VTER Technical Paper, Corrosion Science Symposium, 1998
                   </small><br>
-                  <a href="pdf/paper/rtl_vter_paper_1998.pdf" class="btn btn-info">
-                    View PDF <i class="icon-file"></i>
+                  <a href="pdf/paper/rtl_vter_paper_1998.pdf" target="_blank" class="btn btn-info" role="button">
+                    View PDF <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
                   </a>
                 </p>
               </aside>
 
             </article>
 
-            <aside class="span5">
+            <aside class="col-md-5">
               <figure>
                 <img src="img/photos/vter_probe.jpg" alt="VTER Probe Installation - Drax, UK" width="360" height="270">
                 <figcaption>VTER Probe Installation - Drax, UK</figcaption>
@@ -558,6 +680,7 @@
       </div>
 
       <!--#include file="inc/footer.html" -->
-    </div>
+      <script defer src="js/tabnav.min.js"></script>
+    </main>
   </body>
 </html>

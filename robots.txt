@@ -2,7 +2,6 @@
 
 User-agent: *
 Allow: /
-Disallow: /retinaimages.php
-Disallow: /compress.php
-Sitemap: http://www.rowantechnologies.co.uk/sitemap.xml
-Host: www.rowantechnologies.co.uk
+Sitemap: http://rowantechnologies.co.uk/sitemap.xml
+Sitemap: http://rowantechnologies.co.uk/image-sitemap.xml
+Host: rowantechnologies.co.uk

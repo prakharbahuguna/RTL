@@ -3,42 +3,132 @@
   <head>
     <!--#include file="inc/meta.html" -->
     <title>Rowan Technologies Ltd :: News</title>
-    <script src="js/tabnav.min.js"></script>
     <style>
-      section.row-fluid
+      section.row
       {
-        border-top: 1px dashed #555;
-        padding-top: 20px;
+        border-top: 1px solid #555;
       }
-      figure
-      {
-        float: left;
-        margin: 0 30px 14px 0;
-        max-width: 44%;
-      }
-      h2
-      {
-        margin-top: 0;
+      /* Put two figures side by side on desktop displays*/
+      @media (min-width: 992px) {
+        figure
+        {
+          float: left;
+          margin-left: 0;
+          margin-right: 20px;
+          max-width: 46%;
+        }
       }
     </style>
   </head>
 
   <body>
     <!--#include file="inc/nav.html" -->
-    <div class="container">
-      <div class="tabbable row-fluid">
+    <main class="container">
+      <div class="tabbable row">
         <ul class="nav nav-tabs">
-          <li class="active"><a href="#autumn2014" data-toggle="tab">Autumn 2014</a></li>
-          <li><a href="#spring2014" data-toggle="tab">Spring 2014</a></li>
-          <li><a href="#autumn2013" data-toggle="tab">Autumn 2013</a></li>
-          <li><a href="#spring2013" data-toggle="tab">Spring 2013</a></li>
-          <li><a href="#autumn2012" data-toggle="tab">Autumn 2012</a></li>
+          <li class="active"><a href="#spring2015" data-toggle="tab" role="tab" controls="spring2015">Spring 2015</a></li>
+          <li><a href="#autumn2014" data-toggle="tab" role="tab" controls="autumn2014">Autumn 2014</a></li>
+          <li><a href="#spring2014" data-toggle="tab" role="tab" controls="spring2014">Spring 2014</a></li>
+          <li><a href="#autumn2013" data-toggle="tab" role="tab" controls="autumn2013">Autumn 2013</a></li>
+          <li><a href="#spring2013" data-toggle="tab" role="tab" controls="spring2013">Spring 2013</a></li>
+          <li><a href="#autumn2012" data-toggle="tab" role="tab" controls="autumn2012">Autumn 2012</a></li>
         </ul>
-        <div class="tab-content">
-          <section class="tab-pane fade in out active" id="autumn2014">
+        <div class="tab-content col-md-12">
+          <section class="tab-pane fade in out active" id="spring2015">
+            <h1>Spring News 2015</h1>
+            <section class="row">
+              <article class="col-md-5">
+                <h2>Thermal and Corrosion Monitoring Systems</h2>
+                <p>
+                  RTL have now released their <strong><a href="monitoring.html#tab_ahf">new active heat flux (AHF) and corrosion rate monitors</a></strong>.
+                  These monitors use new measurement techniques developed from RTL's established electrical resistance
+                  techniques. Electrical signals are applied through heat exchanger tube walls or heat transfer
+                  surfaces, using external (cold-side) sensors, to provide a <strong>non-intrusive</strong> measurement
+                  of heat flux. AHF monitors are significantly cheaper to install than currently available intrusive
+                  heat flux monitors and do not require sensors to be welded into the fireside (hot-side) walls, with
+                  all the risks that this process entails.
+                </p>
+                <p>
+                  These systems also have inherent corrosion detection capability and can be used as stand-alone
+                  corrosion monitors in their own right. AHF monitors are now available off-the-shelf to be installed
+                  and operated directly by clients. Contact the company for further details.
+                </p>
+                <p>
+                  RTL now also produces a range of smaller scanner systems: these <strong><a href="pdf/brochure/mini_scanner_brochure.pdf" target="_blank">new 'mini-scanners'</a></strong>
+                  have on-board computing power and operate from a single small enclosure. They are designed for
+                  monitoring smaller, more localised areas of boiler wall with up to 50 or more sensor locations, as
+                  compared to our larger scanner systems that can handle 500 or more sensor locations. They have similar
+                  corrosion and thermal monitoring capabilities as the larger scanners and their compact, self-contained
+                  design helps make installation a simple and straight-forward process.
+                </p>
+              </article>
+              <article class="col-md-7">
+                <figure>
+                  <img src="img/news/ahf_monitor.jpg" alt="The new active heat flux (AHF) monitor which can also detect corrosion" width="300" height="225">
+                  <figcaption>The new active heat flux (AHF) monitor which can also detect corrosion</figcaption>
+                </figure>
+                <figure>
+                  <img src="img/news/heat_flux.jpg" alt="Finite element heat flux model of weld-overlaid superheater tube" width="300" height="225">
+                  <figcaption>Finite element heat flux model of weld-overlaid superheater tube</figcaption>
+                </figure>
+                <figure>
+                  <img src="img/news/corrosion_map.jpg" alt="Corrosion map from mini-scanner system" width="300" height="300">
+                  <figcaption>Corrosion map from mini-scanner system</figcaption>
+                </figure>
+              </article>
+            </section>
+            <section class="row">
+              <article class="col-md-5">
+                <h2>VTER Corrosion Monitoring Probes</h2>
+                <p>
+                  RTL have designed extended-length variable temperature electrical resistance (VTER) probes for the
+                  on-line measurement of corrosion of reheater/superheater tubes in power stations. These probes have
+                  the capability of operating two metres inside boilers using a protective ceramic bandage to minimise
+                  the temperatures of the probe bodies. Two of these extended VTER probes have recently been installed
+                  at Drax Power Station, UK, for the monitoring of 1% chrome tubing.
+                </p>
+                <p>
+                  RTL have now received an order to update the original corrosion scanner on Unit 1 at Drax power
+                  station and to add a further four VTER superheater probes and an extended VTER reheater probe.
+                </p>
+              </article>
+              <article class="col-md-7">
+                <figure>
+                  <img src="img/news/extended_vter_probes.jpg" alt="View of the extended VTER probes prior to insertion in a power station boiler" width="300" height="480">
+                  <figcaption>View of the extended VTER probes prior to insertion in a power station boiler</figcaption>
+                </figure>
+              </article>
+            </section>
+            <section class="row">
+              <article class="col-md-5">
+                <h2>Cathodic Protection Systems and Conservation</h2>
+                <p>
+                  Rowan Technologies has recently completed four cathodic protection systems at Lincoln Castle;
+                  installed to protect cast iron windows from ongoing corrosion. Lincoln's copy of the Magna Carta (one
+                  of only four in existence) is due to be returned to the city in April and will be installed within the
+                  castle. RTL has recently completed smaller investigative projects at Hurst Castle and in Hyde Park.
+                </p>
+                <p>
+                  Concrete conservation projects have recently been completed at the Alexandra Road Estate, Camden and
+                  at a pre-stressed concrete church in Sheldon, Birmingham. Both of these projects were HLF funded.
+                </p>
+                <p>
+                  The company has prepared two technical papers on cathodic protection and traditional repair of
+                  concrete for the Conservation Directory 2015 and the IHBC Spring 2015.
+                </p>
+              </article>
+              <article class="col-md-7">
+                <figure>
+                  <img src="img/news/gun_shields.jpg" alt="View of wrought iron gun shields dating from the Victorian period" width="300" height="225">
+                  <figcaption>View of wrought iron gun shields dating from the Victorian period</figcaption>
+                </figure>
+              </article>
+            </section>
+          </section>
+          <section class="tab-pane fade in out" id="autumn2014">
             <h1>Autumn News 2014</h1>
-            <section class="row-fluid">
-              <article class="span5">
+            <section class="row">
+              <article class="col-md-5">
                 <h2>Corrosion Monitoring Systems</h2>
                 <p>
                   RTL have just shipped another full thermal and corrosion scanner to South Korea. This is the sixth
@@ -60,15 +150,15 @@
                   industrial plant where there is a risk from corrosion.
                 </p>
               </article>
-              <article class="span7">
+              <article class="col-md-7">
                 <figure>
                   <img src="img/news/yeung-heung.jpg" alt="Yeung-Heung Power Station, Korea - corrosion scanner is being installed on Unit 3" width="300" height="225">
                   <figcaption>Yeung-Heung Power Station, Korea - corrosion scanner is being installed on Unit 3</figcaption>
                 </figure>
               </article>
             </section>
-            <section class="row-fluid">
-              <article class="span5">
+            <section class="row">
+              <article class="col-md-5">
                 <h2>Corrosion and Cathodic Protection Systems</h2>
                 <p>
                   RTL have recently completed the design and installation of cathodic protection systems to a church
@@ -86,7 +176,7 @@
                   has been submitted to the Journal of Architectural Conservation.
                 </p>
               </article>
-              <article class="span7">
+              <article class="col-md-7">
                 <figure>
                   <img src="img/news/st_mary_jackfield.jpg" alt="St Mary the Virgin, Jackfield – cathodic protection installed to the bellcote" width="225" height="300">
                   <figcaption>St Mary the Virgin, Jackfield – cathodic protection installed to the bellcote</figcaption>
@@ -101,8 +191,8 @@
           </section>
           <section class="tab-pane fade in out" id="spring2014">
             <h1>Spring News 2014</h1>
-            <section class="row-fluid">
-              <article class="span5">
+            <section class="row">
+              <article class="col-md-5">
                 <h2>Corrosion Monitoring Systems</h2>
                 <p>
                   RTL has recently completed a contract to design, supply and install a full corrosion scanner on a
@@ -125,15 +215,15 @@
                   cannon operations. These devices should be commercially available in spring 2014.
                 </p>
               </article>
-              <article class="span7">
+              <article class="col-md-7">
                 <figure>
                   <img src="img/news/samcheonpo_unit_3.jpg" alt="New Corrosion Scanner installed at Samcheonpo Unit 3" width="300" height="225">
                   <figcaption>New Corrosion Scanner installed at Samcheonpo Unit 3</figcaption>
                 </figure>
               </article>
             </section>
-            <section class="row-fluid">
-              <article class="span5">
+            <section class="row">
+              <article class="col-md-5">
                 <h2>Corrosion and Cathodic Protection Systems</h2>
                 <p>
                   RTL have recently completed the design and installation of a cathodic protection system to protect
@@ -148,7 +238,7 @@
                   project scheduled to take place in 2014.
                 </p>
               </article>
-              <article class="span7">
+              <article class="col-md-7">
                 <figure>
                   <img src="img/news/lewisham_retail.jpg" alt="Cathodic Protection System Installed at Retail Outlet in Lewisham, London." width="300" height="225">
                   <figcaption>Cathodic Protection System Installed at Retail Outlet in Lewisham, London.</figcaption>
@@ -162,8 +252,8 @@
           </section>
           <section class="tab-pane fade in out" id="autumn2013">
             <h1>Autumn News 2013</h1>
-            <section class="row-fluid">
-              <article class="span5">
+            <section class="row">
+              <article class="col-md-5">
                 <h2>Corrosion Monitoring Systems</h2>
                 <p>
                   RTL have recently completed a contract to supply a full corrosion scanner to the sidewalls of the Unit
@@ -191,15 +281,15 @@
                   site.
                 </p>
               </article>
-              <aside class="span7">
+              <aside class="col-md-7">
                 <figure>
                   <img src="img/news/drax_new_nodes.jpg" alt="New node arrangement on the furnace walls at Drax power station." width="300" height="225">
                   <figcaption>New node arrangement on the furnace walls at Drax power station.</figcaption>
                 </figure>
               </aside>
             </section>
-            <section class="row-fluid">
-              <article class="span5">
+            <section class="row">
+              <article class="col-md-5">
                 <h2>Corrosion and Cathodic Protection Systems</h2>
                 <p>
                   RTL have completed a contract to design, supply and install cathodic protection (CP) systems to three
@@ -209,7 +299,7 @@
                   Trust in relation to corrosion and CP systems.
                 </p>
               </article>
-              <aside class="span7">
+              <aside class="col-md-7">
                 <figure>
                   <img src="img/news/observatory_tower_lincoln_castle.jpg" alt="The Observatory Tower, Lincoln Castle" width="300" height="225">
                   <figcaption>The Observatory Tower, Lincoln Castle</figcaption>
@@ -227,8 +317,8 @@
           </section>
           <section class="tab-pane fade in out" id="spring2013">
             <h1>Spring News 2013</h1>
-            <section class="row-fluid">
-              <article class="span5">
+            <section class="row">
+              <article class="col-md-5">
                 <h2>Corrosion Monitoring Systems</h2>
                 <p>
                   RTL successfully completed a corrosion monitoring programme during biofuel trials carried out on the
@@ -251,7 +341,7 @@
                   then take appropriate actions on boiler feed and combustion operation.
                 </p>
               </article>
-              <aside class="span7">
+              <aside class="col-md-7">
                 <figure>
                   <img src="img/news/vter_probes.jpg" alt="Initial Installation of VTER Probes" width="300" height="225">
                   <figcaption>Initial Installation of VTER Probes</figcaption>
@@ -267,15 +357,15 @@
               </aside>
             </section>
 
-            <section class="row-fluid">
-              <article class="span5">
+            <section class="row">
+              <article class="col-md-5">
                 <h2>Corrosion Monitoring Systems - South Korea</h2>
                 <p>
                   RTL have successfully completed the installation of corrosion scanners on three boilers in South
                   Korea. There are plans to install more of these scanner systems in 2013.
                 </p>
               </article>
-              <aside class="span7">
+              <aside class="col-md-7">
                 <figure>
                   <img src="img/news/yeung-heung.jpg" alt="Yeung-Heung Power Station - 1000MW supercritical boilers" width="300" height="225">
                   <figcaption>Yeung-Heung Power Station - 1000MW supercritical boilers</figcaption>
@@ -283,8 +373,8 @@
               </aside>
             </section>
 
-            <section class="row-fluid">
-              <article class="span5">
+            <section class="row">
+              <article class="col-md-5">
                 <h2>Cathodic Protection Systems</h2>
                 <p>
                   RTL have recently installed cathodic protection systems to Paramount House, London and to a retail
@@ -292,7 +382,7 @@
                   premises in Manchester within the next few weeks.
                 </p>
               </article>
-              <aside class="span7">
+              <aside class="col-md-7">
                 <figure>
                   <img src="img/news/paramount_house.jpg" alt="Paramount House, London" width="300" height="225">
                   <figcaption>Paramount House, London</figcaption>
@@ -300,8 +390,8 @@
               </aside>
             </section>
 
-            <section class="row-fluid">
-              <article class="span5">
+            <section class="row">
+              <article class="col-md-5">
                 <h2>Concrete Preservation</h2>
                 <p>
                   RTL have been appointed concrete consultants by the National Theatre, London, to advise on the
@@ -315,7 +405,7 @@
                   main bases for the fighter planes which protected the UK during the Battle of Britain.
                 </p>
               </article>
-              <aside class="span7">
+              <aside class="col-md-7">
                 <figure>
                   <img src="img/news/national_theatre.jpg" alt="National Theatre, South Bank, London" width="300" height="225">
                   <figcaption>National Theatre, South Bank, London</figcaption>
@@ -327,8 +417,8 @@
               </aside>
             </section>
 
-            <section class="row-fluid">
-              <article class="span5">
+            <section class="row">
+              <article class="col-md-5">
                 <h2>Literature</h2>
                 <p>
                   The new English Heritage Practical Building Conservation (PBC) books for both metals and Concrete, of
@@ -341,8 +431,8 @@
           </section>
           <section class="tab-pane fade in out" id="autumn2012">
             <h1>Autumn News 2012</h1>
-            <section class="row-fluid">
-              <article class="span5">
+            <section class="row">
+              <article class="col-md-5">
                 <h2>Scanner Installations - South Korea</h2>
                 <p>
                   Three of the latest versions of our non-intrusive thermal and corrosion scanner systems are currently being
@@ -353,7 +443,7 @@
                   that damage to the boilers is kept to a minimum.
                 </p>
               </article>
-              <aside class="span7">
+              <aside class="col-md-7">
                 <figure>
                   <img src="img/news/samcheonpo_power_station.jpg" alt="Samcheonpo Power Station, South Korea" width="300" height="225">
                   <figcaption>Samcheonpo Power Station, South Korea</figcaption>
@@ -365,8 +455,8 @@
               </aside>
             </section>
 
-            <section class="row-fluid">
-              <article class="span5">
+            <section class="row">
+              <article class="col-md-5">
                 <h2>Power Plant Corrosion Monitoring - UK</h2>
                 <p>
                   Rowan Technologies is continuing its corrosion monitoring programme in the superheater section of a
@@ -374,7 +464,7 @@
                   probes monitor corrosion associated with biomass firing.
                 </p>
               </article>
-              <aside class="span7">
+              <aside class="col-md-7">
                 <figure>
                   <img src="img/news/vter_electronics.jpg" alt="VTER Data Logging Electronics" width="300" height="225">
                   <figcaption>VTER Data Logging Electronics</figcaption>
@@ -386,8 +476,8 @@
               </aside>
             </section>
 
-            <section class="row-fluid">
-              <article class="span5">
+            <section class="row">
+              <article class="col-md-5">
                 <h2>Cathodic Protection System Refurbishment</h2>
                 <p>
                   The work to replace the cathodic protection system at St. Andrew's House, Edinburgh, has now been
@@ -400,7 +490,7 @@
                   outlet in Halifax.
                 </p>
               </article>
-              <aside class="span7">
+              <aside class="col-md-7">
                 <figure>
                   <img src="img/news/st_andrews_house_edinburgh.jpg" alt="St. Andrew's House, Edinburgh" width="300" height="225">
                   <figcaption>St. Andrew's House, Edinburgh</figcaption>
@@ -408,8 +498,8 @@
               </aside>
             </section>
 
-            <section class="row-fluid">
-              <article class="span5">
+            <section class="row">
+              <article class="col-md-5">
                 <h2>Concrete Preservation</h2>
                 <p>
                   Concrete assessments and recommendations for repair projects, associated with historic concrete have
@@ -419,7 +509,7 @@
                   during the Battle of Britain) is due to be carried out in July for the City of London.
                 </p>
               </article>
-              <aside class="span7">
+              <aside class="col-md-7">
                 <figure>
                   <img src="img/news/eltham_palace.jpg" alt="Cast Stone Covered Dome - Eltham Palace, UK" width="300" height="225">
                   <figcaption>Cast Stone Covered Dome - Eltham Palace, UK</figcaption>
@@ -431,15 +521,15 @@
               </aside>
             </section>
 
-            <section class="row-fluid">
-              <article class="span5">
+            <section class="row">
+              <article class="col-md-5">
                 <h2>Downside Abbey</h2>
                 <p>
                   RTL have recently completed an advisory project for Downside Abbey, where insulation is to be included
                   in replacement copper roofs to many parts of the abbey.
                 </p>
               </article>
-              <aside class="span7">
+              <aside class="col-md-7">
                 <figure>
                   <img src="img/news/downside_abbey_copper_roof.jpg" alt="Copper Roofs - Downside Abbey, UK" width="300" height="225">
                   <figcaption>Copper Roofs - Downside Abbey, UK</figcaption>
@@ -451,6 +541,7 @@
 
       </div>
       <!--#include file="inc/footer.html" -->
-    </div>
+      <script defer src="js/tabnav.min.js"></script>
+    </main>
   </body>
 </html>

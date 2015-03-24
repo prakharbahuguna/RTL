@@ -2,17 +2,15 @@
 <html lang="en">
   <head>
     <!--#include file="inc/meta.html" -->
-    <script defer>String.prototype.rot13=function(){return this.replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)})};$(function(){$("a.email").each(function(){var e=$(this).text().rot13();$(this).text(e);$(this).attr("href","mailto:"+e)})})</script>
     <title>Rowan Technologies Ltd :: Contact</title>
   </head>
 
   <body>
     <!--#include file="inc/nav.html" -->
-    <div class="container">
-
+    <main class="container">
       <h1>Contact Rowan Technologies</h1>
-      <section class="row-fluid">
-        <div class="vcard well span4" itemscope itemtype="http://data-vocabulary.org/Organization">
+      <section class="row">
+        <div class="vcard well col-md-4" itemscope itemtype="http://data-vocabulary.org/Organization">
           <h2>Head Office</h2>
           <span class="fn org" itemprop="name">Rowan Technologies Ltd</span><br>
           <span class="adr" itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
@@ -28,8 +26,7 @@
           <br>&nbsp;
         </div>
 
-
-        <div class="vcard well span4" itemscope itemtype="http://data-vocabulary.org/Organization">
+        <div class="vcard well col-md-4" itemscope itemtype="http://data-vocabulary.org/Organization">
           <h2>Far East Agent</h2>
           <span class="fn org" itemprop="name">TeeTech</span><br>
           <span class="adr" itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
@@ -46,6 +43,7 @@
 
       </section>
       <!--#include file="inc/footer.html" -->
-    </div>
+      <script defer>String.prototype.rot13=function(){return this.replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)})};$(function(){$("a.email").each(function(){var e=$(this).text().rot13();$(this).text(e);$(this).attr("href","mailto:"+e)})})</script>
+    </main>
   </body>
 </html>

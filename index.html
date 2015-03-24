@@ -2,15 +2,33 @@
 <html lang="en">
   <head>
     <!--#include file="inc/meta.html" -->
+    <style>
+      @media (min-width: 992px) {
+        header, aside {
+          height: 670px;
+        }
+        aside {
+          overflow-y: auto;
+        }
+      }
+      @media (min-width: 1200px) {
+        header, aside {
+          height: 720px;
+        }
+        aside {
+          overflow-y: auto;
+        }
+      }
+    </style>
     <title>Rowan Technologies Ltd :: Home</title>
   </head>
 
   <body>
     <!--#include file="inc/nav.html" -->
-    <div class="container">
+    <main class="container">
 
-      <section class="row-fluid">
-        <header class="hero-unit span8"  style="height: 740px">
+      <section class="row">
+        <header class="jumbotron col-md-8">
           <h1>Welcome to Rowan Technologies</h1>
           <p>
             Rowan Technologies Ltd, established in 1991, provides a diverse range of services and systems related to
@@ -20,8 +38,8 @@
             companies.
           </p>
 
-          <div id="showcase" class="carousel slide">
-            <div class="carousel-inner">
+          <div id="showcase" class="carousel slide carousel-fade" data-ride="carousel" data-interval="8000">
+            <div class="carousel-inner" role="listbox">
               <div class="item active">
                 <img src="img/carousel/samcheonpo_power_station.jpg" alt="Scanner Installations - Samcheonpo Power Station, South Korea" width="740" height="460">
                 <div class="carousel-caption">
@@ -70,50 +88,56 @@
 
         </header>
 
-        <aside class="span4 well" style="height: 740px; overflow-y: auto">
+        <aside class="col-md-4 well">
           <h1>Latest News</h1>
           <p>
-            RTL have just shipped another full thermal and corrosion scanner to South Korea. This is the sixth scanner
-            to be installed in this country and the second on this modern 'supercritical powered' station that provides
-            electricity for the capital, Seoul. The scanner comes complete with the latest monitoring software and
-            analysis package which sends on-line thermal and corrosion data to the plant control room.
+            RTL have now released their <strong><a href="monitoring.html#tab_ahf">new active heat flux (AHF) and corrosion rate monitors</a></strong>. These
+            monitors use new measurement techniques developed from RTL's established electrical resistance techniques.
+            AHF monitors are significantly cheaper to install than currently available intrusive heat flux monitors and
+            do not require sensors to be welded into the fireside (hot-side) walls, with all the risks that this process
+            entails.
           </p>
 
           <p>
-            A thermal only scanner extension has been supplied to Drax power station for their Unit 4 boiler. This
-            greatly increases the capability of the existing thermal scanner so that combustion conditions that result
-            in tube rupture can be successfully monitored and eventually overcome.
+            Also introduced this year are our <strong><a href="pdf/brochure/mini_scanner_brochure.pdf" target="_blank">new 'mini-scanner' systems</a></strong>. These have all the
+            capabilities of our larger scanners but are designed for smaller monitoring areas with up to 50 or more
+            sensor locations. All the electronics and computer hardware are housed in a single small enclosure, powered
+            by a single low-voltage DC supply.
           </p>
 
           <p>
-            RTL have recently completed the design and installation of cathodic protection systems to a church tower in
-            Shropshire and to 18th century muses at Seaton Delaval Hall – a National Trust property. Seaton Delaval Hall
-            contains six muses with wrought iron armatures, all of which have been suffering from ongoing corrosion
-            which had cracked and delaminated the plaster/lime bodies and limbs of the sculptures. This is the first
-            time that RTL have applied cathodic protection to plaster and lime statues.
+            RTL have designed extended-length variable temperature electrical resistance (VTER) probes for the on-line
+            measurement of corrosion of reheater/superheater tubes in power stations. These probes have the capability
+            of operating two metres inside boilers using a protective ceramic bandage to minimise the temperatures of
+            the probe bodies. Two of these extended VTER probes have recently been installed at Drax Power Station, UK,
+            for the monitoring of 1% chrome tubing.
           </p>
+
           <p>
-            Rowan Technologies has recently been awarded a patent for the Electrical Resistance Measurement Systems
-            which provide the foundations for both the Thermal and Corrosion Monitoring Scanners.
+            We have recently completed four cathodic protection systems at Lincoln Castle; installed to protect cast
+            iron windows from ongoing corrosion. Lincoln's copy of the Magna Carta (one of only four in existence) is
+            due to be returned to the city in April and will be installed within the castle. RTL has recently completed
+            smaller investigative projects at Hurst Castle and in Hyde Park.
           </p>
-          <a href="news.html" class="btn btn-primary btn-info">Read more &raquo;</a>
+          <a href="news.html" class="btn btn-primary btn-info" role="button">Read more &raquo;</a>
 
         </aside>
       </section>
 
-      <section class="row-fluid">
-        <article class="span4">
+      <section class="row">
+        <article class="col-md-4">
           <h2>Industrial Monitoring</h2>
           <p>
-            We design and supply systems for monitoring both the integrity (corrosion, erosion and cracking) and thermal
-            behaviour of industrial plants. Our scanner technology, designed to monitor and map large areas of plant
-            such as boiler walls, has been used in power generation plant since 1999 - our first full-scale system is
-            now set to have an operational life of more than ten years.
+            We design and supply a range of systems for monitoring both the integrity (corrosion, erosion and cracking)
+            and thermal behaviour of industrial plants. Our scanner technology, designed to monitor and map large areas
+            of plant such as boiler walls, has been used in power generation plant since 1999. New in 2015,
+            'mini-scanners' now complement these larger systems and are designed for smaller monitoring areas. Also
+            introduced in 2015 are our new heat flux monitors, designed for precision monitoring at point locations.
           </p>
-          <p><a class="btn btn-primary btn-info" href="monitoring.html">Read more &raquo;</a></p>
+          <p><a href="monitoring.html" class="btn btn-primary btn-info" role="button">Read more &raquo;</a></p>
         </article>
 
-        <article class="span4">
+        <article class="col-md-4">
           <h2>Protection &amp; Conservation</h2>
           <p>
             We provide services and systems for corrosion risk assessment, prevention and control, and specialise in the
@@ -121,10 +145,10 @@
             and concrete. As advisers to English Heritage, we have extensive experience in the preservation and
             conservation of historic structures, including some of the UK’s best known buildings.
           </p>
-          <p><a class="btn btn-primary btn-info" href="protection.html">Read more &raquo;</a></p>
+          <p><a href="protection.html" class="btn btn-primary btn-info" role="button">Read more &raquo;</a></p>
         </article>
 
-        <article class="span4">
+        <article class="col-md-4">
           <h2>Services and R&amp;D</h2>
           <p>
             Services include consultancy, failure analysis and environmental monitoring and we have (or have access to)
@@ -134,19 +158,13 @@
             environments.
           </p>
           <p>
-            <a class="btn btn-primary btn-info" href="services.html">Services &raquo;</a>
-            <a class="btn btn-primary btn-info" href="research.html">R&amp;D &raquo;</a>
+            <a href="services.html" class="btn btn-primary btn-info" role="button">Services &raquo;</a>
+            <a href="research.html" class="btn btn-primary btn-info" role="button">R&amp;D &raquo;</a>
           </p>
         </article>
 
       </section>
-
-      <script type="text/javascript">
-        $(document).ready(function(){
-          $(".carousel").carousel({interval: 8000});
-        });
-      </script>
       <!--#include file="inc/footer.html" -->
-    </div>
+    </main>
   </body>
 </html>

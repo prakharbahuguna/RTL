@@ -3,23 +3,22 @@
   <head>
     <!--#include file="inc/meta.html" -->
     <title>Rowan Technologies Ltd :: Corrosion Protection and Conservation</title>
-    <script defer src="js/tabnav.min.js"></script>
   </head>
 
   <body>
     <!--#include file="inc/nav.html" -->
-    <div class="container">
-      <div class="tabbable row-fluid">
+    <main class="container">
+      <div class="tabbable row">
         <ul class="nav nav-tabs">
-          <li class="active"><a href="#overview" data-toggle="tab">Overview</a></li>
-          <li><a href="#cp" data-toggle="tab">Cathodic Protection</a></li>
-          <li><a href="#concrete" data-toggle="tab">Concrete</a></li>
-          <li><a href="#roofs" data-toggle="tab">Metal Roofs</a></li>
-          <li><a href="#patination" data-toggle="tab">Patination Cream</a></li>
+          <li class="active"><a href="#overview" data-toggle="tab" role="tab" aria-controls="overview">Overview</a></li>
+          <li><a href="#cp" data-toggle="tab" role="tab" aria-controls="cp">Cathodic Protection</a></li>
+          <li><a href="#concrete" data-toggle="tab" role="tab" aria-controls="concrete">Concrete</a></li>
+          <li><a href="#roofs" data-toggle="tab" role="tab" aria-controls="roofs">Metal Roofs</a></li>
+          <li><a href="#patination" data-toggle="tab" role="tab" aria-controls="patination">Patination Cream</a></li>
         </ul>
-        <div class="tab-content">
+        <div class="tab-content col-md-12">
           <section class="tab-pane fade in out active" id="overview">
-            <article class="span7">
+            <article class="col-md-7">
               <h1>Corrosion Protection and Conservation</h1>
               <p>
                 Rowan Technologies has a wealth of experience in the protection and conservation of both historic and
@@ -60,7 +59,7 @@
               </p>
             </article>
 
-            <aside class="span5">
+            <aside class="col-md-5">
               <figure>
                 <img src="img/photos/listening_mirror.jpg" alt="Concrete Preservation - Listening Mirror, Kent, UK" width="360" height="270">
                 <figcaption>Concrete Preservation - Listening Mirror, Kent, UK</figcaption>
@@ -79,7 +78,7 @@
 
 
           <section class="tab-pane fade in out" id="cp">
-            <article class="span7">
+            <article class="col-md-7">
               <h1>Cathodic Protection</h1>
               <p>
                 The corrosion of embedded metalwork is becoming an increasing problem in our historic buildings and
@@ -111,14 +110,14 @@
                 the corroding metalwork and is electrically connected to it. As the sacrificial anode corrodes, it
                 generates a current that passes through the building material to provide protection to the embedded
                 metalwork.<br>
-                <img src="img/diagrams/sacp_schematic.png" width="344" height="244" alt="Schematic for SACP">
+                <img src="img/diagrams/sacp_schematic.png" width="344" height="244" alt="Schematic for SACP" data-no-retina>
               </p>
 
               <h2>Impressed Current Cathodic Protection (ICCP)</h2>
               <p>
                 ICCP systems require an external power supply, normally using mains powered electronics to provide the
                 DC current to the iron or steel to be protected.<br>
-                <img src="img/diagrams/iccp_schematic.png" width="344" height="191" alt="Schematic for ICCP">
+                <img src="img/diagrams/iccp_schematic.png" width="344" height="191" alt="Schematic for ICCP" data-no-retina>
               </p>
 
               <p>
@@ -139,14 +138,14 @@
                 <h2>Further Reading</h2>
                 <p>
                   Cathodic Protection Case Studies<br>
-                  <a href="pdf/paper/cp_case_studies.pdf" class="btn btn-info">View PDF <i class="icon-file"></i></a>
+                  <a href="pdf/paper/cp_case_studies.pdf" target="_blank" class="btn btn-info" role="button">View PDF <span class="glyphicon glyphicon-file" aria-hidden="true"></span></a>
                 </p>
 
                 <p>
                   Cathodic Protection of Iron and Steel, Recent Applications to Heritage Buildings<br>
                   <small>D.M. Farrell, K Davies, I. McCaig, Building Conservation Directory 2001.</small><br>
-                  <a href="pdf/paper/rtl_cp2001_almshouses.pdf" class="btn btn-info">
-                    View PDF <i class="icon-file"></i>
+                  <a href="pdf/paper/rtl_cp2001_almshouses.pdf" target="_blank" class="btn btn-info" role="button">
+                    View PDF <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
                   </a>
                 </p>
 
@@ -154,21 +153,21 @@
                   Practical Aspects of Cathodic Protection for the Conservation of Iron and Steel in Heritage Buildings
                   <br>
                   <small>D.M. Farrell, K. Davies, APT Symposium, New York 2004.</small><br>
-                  <a href="pdf/paper/practical_aspects_2004.pdf" class="btn btn-info">View PDF <i class="icon-file"></i>
+                  <a href="pdf/paper/practical_aspects_2004.pdf" target="_blank" class="btn btn-info" role="button">View PDF <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
                   </a>
                 </p>
 
                 <p>
-                  Cathodic Protection of Tie Bars and Ring Beams in Church Towers<br>
-                  <small>C. Hunt and D.M. Farrell, May 2010</small><br>
-                  <a href="pdf/paper/cp_tie_bars_ring_beams.pdf" class="btn btn-info">View PDF <i class="icon-file"></i>
+                  Cathodic Protection of Embedded Iron in Church Towers<br>
+                  <small>C. Hunt and D.M. Farrell, Institute of Historic Building Conservation, May 2015</small><br>
+                  <a href="pdf/paper/cp_tie_bars_ring_beams.pdf" target="_blank" class="btn btn-info" role="button">View PDF <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
                   </a>
                 </p>
 
               </aside>
             </article>
 
-            <aside class="span5">
+            <aside class="col-md-5">
               <figure>
                 <img src="img/photos/wellington_arch.jpg" alt="Cathodic Protection of Support Beams, Wellington Arch, London" width="360" height="270">
                 <figcaption>Cathodic Protection of Support Beams, Wellington Arch, London</figcaption>
@@ -204,7 +203,7 @@
 
 
           <section class="tab-pane fade in out" id="concrete">
-            <article class="span7">
+            <article class="col-md-7">
               <h1>Concrete</h1>
               <p>
                 Reinforced concrete was first used in the construction industry in the late 19th Century. Concrete is
@@ -243,7 +242,7 @@
                 <h2>Further Reading</h2>
                 <p>
                   Concrete Inspection Case Studies<br>
-                  <a href="pdf/paper/concrete_case_studies.pdf" class="btn btn-info">View PDF <i class="icon-file"></i>
+                  <a href="pdf/paper/concrete_case_studies.pdf" target="_blank" class="btn btn-info" role="button">View PDF <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
                   </a>
                 </p>
 
@@ -251,16 +250,24 @@
                   Repair and Conservation of Reinforced Concrete<br>
                   <small>D.M. Farrell, K. Davies, Historic Churches, The Building Conservation Directory 2005.</small>
                   <br>
-                  <a href="pdf/paper/reinforced_concrete_paper.pdf" class="btn btn-info">
-                    View PDF <i class="icon-file"></i>
+                  <a href="pdf/paper/reinforced_concrete_paper.pdf" target="_blank" class="btn btn-info" role="button">
+                    View PDF <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
                   </a>
                 </p>
 
                 <p>
                   Tynemouth Coastal Battery - Traditional Repairs of Non-Reinforced Concrete<br>
                   <small>D.M. Farrell, Rowan Technologies Ltd Report &amp; Repair Specification, 2009.</small><br>
-                  <a href="pdf/paper/tynmouth_battery_report_2009.pdf" class="btn btn-info">
-                    View PDF <i class="icon-file"></i>
+                  <a href="pdf/paper/tynmouth_battery_report_2009.pdf" target="_blank" class="btn btn-info" role="button">
+                    View PDF <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                  </a>
+                </p>
+
+                <p>
+                  Concrete Repairs: Traditional Methods and Like-for-Like Materials<br>
+                  <small>D.M. Farrell, C. Wood, The Building Conservation Directory, 2015</small><br>
+                  <a href="pdf/paper/concrete_repairs.pdf" target="_blank" class="btn btn-info" role="button">
+                    View PDF <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
                   </a>
                 </p>
 
@@ -268,7 +275,7 @@
             </article>
 
 
-            <aside class="span5">
+            <aside class="col-md-5">
               <figure>
                 <img src="img/photos/beeston_castle.jpg" alt="Concrete Inspection - Beeston Castle, Cheshire, UK" width="360" height="270">
                 <figcaption>Concrete Inspection - Beeston Castle, Cheshire, UK</figcaption>
@@ -287,7 +294,7 @@
 
 
           <section class="tab-pane fade in out" id="roofs">
-            <article class="span7">
+            <article class="col-md-7">
               <h1>Metal Roofs</h1>
               <p>
                 Rowan Technologies has many years experience of metal roof inspection, specification and recommendation
@@ -313,7 +320,7 @@
                 <h2>Further Reading</h2>
                 <p>
                   Metal Roofs Case Studies<br>
-                  <a href="pdf/paper/roofs_case_studies.pdf" class="btn btn-info">View PDF <i class="icon-file"></i></a>
+                  <a href="pdf/paper/roofs_case_studies.pdf" target="_blank" class="btn btn-info" role="button">View PDF <span class="glyphicon glyphicon-file" aria-hidden="true"></span></a>
                 </p>
 
                 <p>
@@ -321,8 +328,8 @@
                   <small>
                     D.M. Farrell, The Journal of the Ecclesiastical Architects and Surveyors Association (EASA) 2007.
                   </small><br>
-                  <a href="pdf/paper/underside_lead_paper_2006.pdf" class="btn btn-info">
-                    View PDF <i class="icon-file"></i>
+                  <a href="pdf/paper/underside_lead_paper_2006.pdf" target="_blank" class="btn btn-info" role="button">
+                    View PDF <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
                   </a>
                 </p>
 
@@ -332,8 +339,8 @@
                     D.M. Farrell, C. Wood, The Journal of the Ecclesiastical Architects And Surveyors Association (EASA)
                     2008 Volume 6.
                   </small><br>
-                  <a href="pdf/paper/architects_transactions_2008.pdf" class="btn btn-info">
-                    View PDF <i class="icon-file"></i>
+                  <a href="pdf/paper/architects_transactions_2008.pdf" target="_blank" class="btn btn-info" role="button">
+                    View PDF <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
                   </a>
                 </p>
 
@@ -341,7 +348,7 @@
             </article>
 
 
-            <aside class="span5">
+            <aside class="col-md-5">
               <figure>
                 <img src="img/photos/tower_of_london_roof.jpg" alt="Roof Inspection - Tower of London" width="360" height="270">
                 <figcaption>Roof Inspection - Tower of London</figcaption>
@@ -356,7 +363,7 @@
 
 
           <section class="tab-pane fade in out" id="patination">
-            <article class="span7">
+            <article class="col-md-7">
               <h1>Chalk Enhanced Patination Cream</h1>
               <p>
                 Rowan Technologies supplies a chalk-rich corrosion protection coating (Chalk Emulsion or Patination
@@ -384,8 +391,8 @@
                   <small>
                     D.M. Farrell, The Journal of the Ecclesiastical Architects and Surveyors Association (EASA) 2007.
                   </small><br>
-                  <a href="pdf/paper/underside_lead_paper_2006.pdf" class="btn btn-info">
-                    View PDF <i class="icon-file"></i>
+                  <a href="pdf/paper/underside_lead_paper_2006.pdf" target="_blank" class="btn btn-info" role="button">
+                    View PDF <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
                   </a>
                 </p>
 
@@ -395,8 +402,8 @@
                     D.M. Farrell, C. Wood, The Journal of the Ecclesiastical Architects And Surveyors Association (EASA)
                     2008 Volume 6.
                   </small><br>
-                  <a href="pdf/paper/architects_transactions_2008.pdf" class="btn btn-info">
-                    View PDF <i class="icon-file"></i>
+                  <a href="pdf/paper/architects_transactions_2008.pdf" target="_blank" class="btn btn-info" role="button">
+                    View PDF <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
                   </a>
                 </p>
 
@@ -404,7 +411,7 @@
             </article>
 
 
-            <aside class="span5">
+            <aside class="col-md-5">
               <figure>
                 <img src="img/photos/patination_cream.jpg" alt="Chalk Emulsion (Patination Cream)" width="360" height="270">
                 <figcaption>Chalk Emulsion (Patination Cream)</figcaption>
@@ -421,6 +428,7 @@
       </div>
 
       <!--#include file="inc/footer.html" -->
-    </div>
+      <script defer src="js/tabnav.min.js"></script>
+    </main>
   </body>
 </html>

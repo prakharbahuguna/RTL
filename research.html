@@ -8,9 +8,9 @@
 
   <body>
     <!--#include file="inc/nav.html" -->
-    <div class="container">
-      <section class="row-fluid">
-        <article class="span7">
+    <main class="container">
+      <section class="row">
+        <article class="col-md-7">
           <h1>Research &amp; Development</h1>
           <h2>Ceramic Thermocouples </h2>
           <p>
@@ -54,26 +54,26 @@
             <p>
               The Development of Ceramic-Based Thermocouples<br>
               <small>B.J. Robbins, Rowan Technologies Ltd, 2008.</small><br>
-              <a href="pdf/paper/ct_technology_paper.pdf" class="btn btn-info">
-                View PDF <i class="icon-file"></i>
+              <a href="pdf/paper/ct_technology_paper.pdf" target="_blank" class="btn btn-info" role="button">
+                View PDF <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
               </a>
             </p>
             <p>
               The Development of Ceramic-Based Thermocouples for Application in Gas Turbines<br>
               <small>D.M. Farrell, J. Parmar, B.J. Robbins, Turbo Expo, New Orleans 2001.</small><br>
-              <a href="pdf/paper/rtl_ctp_2001gasturbines.pdf" class="btn btn-info">
-                View PDF <i class="icon-file"></i>
+              <a href="pdf/paper/rtl_ctp_2001gasturbines.pdf" target="_blank" class="btn btn-info" role="button">
+                View PDF <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
               </a>
             </p>
             <p>Cathodic Protection Case Studies<br>
-              <a href="pdf/paper/cp_case_studies.pdf" class="btn btn-info">
-                View PDF <i class="icon-file"></i>
+              <a href="pdf/paper/cp_case_studies.pdf" target="_blank" class="btn btn-info" role="button">
+                View PDF <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
               </a>
             </p>
           </aside>
         </article>
 
-        <aside class="span5">
+        <aside class="col-md-5">
           <figure>
             <img src="img/photos/ceramic_thermocouple_molten_steel.jpg" alt="Ceramic Thermocouple - Molten Steel Trials" width="360" height="270">
             <figcaption>Ceramic Thermocouple - Molten Steel Trials</figcaption>
@@ -85,7 +85,8 @@
         </aside>
       </section>
       <!--#include file="inc/footer.html" -->
-    </div>
+      <script defer>String.prototype.rot13=function(){return this.replace(/[a-zA-Z]/g,function(e){return String.fromCharCode((e<="Z"?90:122)>=(e=e.charCodeAt(0)+13)?e:e-26)})};$(function(){$("a.email").each(function(){var e=$(this).text().rot13();$(this).text(e);$(this).attr("href","mailto:"+e)})})</script>
+    </main>
 
   </body>
 </html>

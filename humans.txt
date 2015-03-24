@@ -8,5 +8,4 @@
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    jQuery, Bootstrap, HTML5 Boilerplate
-    Retina Images, Precompress (developed by Prakhar)
+    jQuery, Bootstrap 3, HTML5 Boilerplate, retina.js
