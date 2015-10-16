@@ -22,6 +22,17 @@
         aside {
           overflow-y: auto;
         }
+        #ahf-banner {
+          margin-right: -8px;
+        }
+      }
+      @media (max-width: 991px) {
+        #ahf-banner {
+          margin-right: -30px;
+        }
+      }
+      #ahf-banner * {
+        text-align: center;
       }
       .panel-heading {
         font-size: 20px;
@@ -57,43 +68,48 @@
     <!--#include file="inc/nav.html" -->
     <main class="container">
 
-      <section class="row">
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <button id="ahf-toggle" type="button" data-toggle="collapse" data-target="#ahf-banner" aria-expanded="true" aria-controls="ahf-banner">
-              <span class="sr-only">Toggle AHF banner</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a href="monitoring.html#tab_ahf" style="color: inherit">
-              New Low-Cost Non-Intrusive Heat Flux and Corrosion Monitors
-            </a>
-          </div>
-          <div class="panel-body collapse in" id="ahf-banner">
-            <p>
-              These stand-alone units are designed for heat flux and corrosion monitoring at point locations on boiler
-              membrane walls and other industrial applications. They use the principle of electrical resistance
-              measurement to accurately determine the real heat flux and any loss-in-thickness (corrosion or erosion) of
-              heat transfer surfaces.
-            </p>
-            <p>
-              <strong>Non-intrusive</strong> sensors are simply welded to external tube walls as opposed to <strong>intrusive</strong> heat flux probes which require tube removal and replacement.
-            </p>
-            <p>Straight-forward installation, multiple interface options with plant information systems.</p>
-            <p>Prices starting from £3500 GBP</p>
-            <div class="row">
-              <figure>
-                <img src="img/news/ahf_monitor.jpg" alt="AHF Enclosure under Test" width="300" height="225">
-                <figcaption>AHF Enclosure under Test</figcaption>
-              </figure>
-              <figure>
-                <img src="img/news/fem_tube_cross_section.jpg" alt="Finite Element Model of Tube Wall Heat Flow – Supercritical Boiler" width="326" height="225">
-                <figcaption>Finite Element Model of Tube Wall Heat Flow – Supercritical Boiler</figcaption>
-              </figure>
+      <section id="ahf-banner" class="row">
+        <div class="col-md-12" style="padding-left: 0">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <button id="ahf-toggle" type="button" data-toggle="collapse" data-target="#ahf-banner" aria-expanded="true" aria-controls="ahf-banner">
+                <span class="sr-only">Toggle AHF banner</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="monitoring.html#tab_ahf" style="color: inherit">
+                New Low-Cost Non-Intrusive Heat Flux and Corrosion Monitors
+              </a>
+            </div>
+            <div class="panel-body collapse in" id="ahf-banner">
+              <p>
+                These stand-alone units are designed for heat flux and corrosion monitoring at point locations on boiler
+                membrane walls and other industrial applications. They use the principle of electrical resistance
+                measurement to accurately determine the real heat flux and any loss-in-thickness (corrosion or erosion) of
+                heat transfer surfaces.
+              </p>
+              <p>
+                <strong>Non-intrusive</strong> sensors are simply welded to external tube walls as opposed to <strong>intrusive</strong> heat flux probes which require tube removal and replacement.
+              </p>
+              <p>Straight-forward installation, multiple interface options with plant information systems.</p>
+              <p>Prices starting from £3500 GBP</p>
+              <div class="row" style="display: inline-block">
+                <figure>
+                  <img src="img/news/ahf_monitor.jpg" alt="AHF Enclosure under Test" width="300" height="225">
+                  <figcaption>AHF Enclosure under Test</figcaption>
+                </figure>
+                <figure>
+                  <img src="img/news/fem_tube_cross_section.jpg" alt="Finite Element Model of Tube Wall Heat Flow – Supercritical Boiler" width="326" height="225">
+                  <figcaption>Finite Element Model of Tube Wall Heat Flow – Supercritical Boiler</figcaption>
+                </figure>
+              </div>
             </div>
           </div>
         </div>
+      </section>
+
+      <section class="row">
         <header class="jumbotron col-md-8">
           <h1>Welcome to Rowan Technologies</h1>
           <p>
