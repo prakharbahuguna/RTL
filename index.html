@@ -22,16 +22,11 @@
         aside {
           overflow-y: auto;
         }
-        #ahf-banner {
-          margin-right: -8px;
+        #ahf-banner-wrapper > div {
+          padding-right: 22px;
         }
       }
-      @media (max-width: 991px) {
-        #ahf-banner {
-          margin-right: -30px;
-        }
-      }
-      #ahf-banner * {
+      #ahf-banner-wrapper * {
         text-align: center;
       }
       .panel-heading {
@@ -60,6 +55,9 @@
       #ahf-toggle .icon-bar+.icon-bar {
         margin-top: 4px;
       }
+      #ahf-banner {
+        background-color: #d9edf7;
+      }
     </style>
     <title>Rowan Technologies Ltd :: Home</title>
   </head>
@@ -68,9 +66,9 @@
     <!--#include file="inc/nav.html" -->
     <main class="container">
 
-      <section id="ahf-banner" class="row">
+      <section id="ahf-banner-wrapper" class="row">
         <div class="col-md-12" style="padding-left: 0">
-          <div class="panel panel-primary">
+          <div class="panel panel-info">
             <div class="panel-heading">
               <button id="ahf-toggle" type="button" data-toggle="collapse" data-target="#ahf-banner" aria-expanded="true" aria-controls="ahf-banner">
                 <span class="sr-only">Toggle AHF banner</span>
@@ -93,7 +91,7 @@
                 <strong>Non-intrusive</strong> sensors are simply welded to external tube walls as opposed to <strong>intrusive</strong> heat flux probes which require tube removal and replacement.
               </p>
               <p>Straight-forward installation, multiple interface options with plant information systems.</p>
-              <p>Prices starting from £3500 GBP</p>
+              <p><strong><a href="monitoring.html#tab_ahf">Prices starting from £3500 GBP</a></strong></p>
               <div class="row" style="display: inline-block">
                 <figure>
                   <img src="img/news/ahf_monitor.jpg" alt="AHF Enclosure under Test" width="300" height="225">
