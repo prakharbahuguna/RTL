@@ -8,197 +8,136 @@
 
 <url>
   <loc>http://rowantechnologies.co.uk/</loc>
-  <changefreq>monthly</changefreq>
-  <priority>1.00</priority>
 </url>
 <url>
   <loc>http://rowantechnologies.co.uk/./</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://rowantechnologies.co.uk/index.html</loc>
 </url>
 <url>
   <loc>http://rowantechnologies.co.uk/news.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://rowantechnologies.co.uk/monitoring.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://rowantechnologies.co.uk/protection.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://rowantechnologies.co.uk/services.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://rowantechnologies.co.uk/research.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://rowantechnologies.co.uk/contact.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://rowantechnologies.co.uk/about.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://rowantechnologies.co.uk/pdf/brochure/mini_scanner_brochure.pdf</loc>
-  <lastmod>2015-03-13T10:33:47+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+  <lastmod>2016-02-27T16:56:09+00:00</lastmod>
+</url>
+<url>
+  <loc>http://rowantechnologies.co.uk/pdf/brochure/corrosion_and_thermal_scanner_brochure.pdf</loc>
+  <lastmod>2016-02-27T16:56:25+00:00</lastmod>
 </url>
 <url>
   <loc>http://rowantechnologies.co.uk/pdf/brochure/thermal_scanner_brochure.pdf</loc>
-  <lastmod>2015-03-04T21:00:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://rowantechnologies.co.uk/pdf/paper/power_engineering_scanner_article_may10.pdf</loc>
-  <lastmod>2015-03-04T21:00:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://rowantechnologies.co.uk/pdf/paper/rtl_thermal_scanner_paper_nov09.pdf</loc>
-  <lastmod>2015-03-04T21:00:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://rowantechnologies.co.uk/pdf/brochure/fixed_system_scanner_brochure.pdf</loc>
-  <lastmod>2015-03-04T21:00:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <lastmod>2016-02-27T16:56:47+00:00</lastmod>
 </url>
 <url>
   <loc>http://rowantechnologies.co.uk/pdf/brochure/portable_system_scanner_brochure.pdf</loc>
-  <lastmod>2015-03-04T21:00:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <lastmod>2016-02-27T16:56:55+00:00</lastmod>
+</url>
+<url>
+  <loc>http://rowantechnologies.co.uk/pdf/paper/scanner_overview_and_applications.pdf</loc>
+  <lastmod>2016-02-12T15:22:58+00:00</lastmod>
+</url>
+<url>
+  <loc>http://rowantechnologies.co.uk/pdf/paper/rtl_thermal_applications_2015.pdf</loc>
+  <lastmod>2016-02-27T16:54:09+00:00</lastmod>
+</url>
+<url>
+  <loc>http://rowantechnologies.co.uk/pdf/paper/power_engineering_scanner_article_may10.pdf</loc>
+  <lastmod>2016-02-27T16:53:37+00:00</lastmod>
 </url>
 <url>
   <loc>http://rowantechnologies.co.uk/pdf/paper/rtl_scanner_paper_pf_fired_boilers.pdf</loc>
-  <lastmod>2015-03-04T21:00:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <lastmod>2016-02-27T16:54:00+00:00</lastmod>
 </url>
 <url>
-  <loc>http://rowantechnologies.co.uk/pdf/paper/hida5_conference_paper.pdf</loc>
-  <lastmod>2015-03-04T21:00:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://rowantechnologies.co.uk/pdf/paper/ndt_2008_paper.pdf</loc>
-  <lastmod>2015-03-04T21:00:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://rowantechnologies.co.uk/pdf/brochure/ahf_brochure.pdf</loc>
-  <lastmod>2015-03-13T10:33:45+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <loc>http://rowantechnologies.co.uk/pdf/brochure/hfc_brochure.pdf</loc>
+  <lastmod>2016-02-27T20:04:09+00:00</lastmod>
 </url>
 <url>
   <loc>http://rowantechnologies.co.uk/pdf/brochure/vter_probe_brochure.pdf</loc>
-  <lastmod>2015-03-04T21:00:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <lastmod>2016-02-27T16:56:48+00:00</lastmod>
 </url>
 <url>
-  <loc>http://rowantechnologies.co.uk/pdf/paper/rtl_vter_paper_1998.pdf</loc>
-  <lastmod>2015-03-04T21:00:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <loc>http://rowantechnologies.co.uk/pdf/paper/vter_overview_feb_2016.pdf</loc>
+  <lastmod>2016-02-09T11:49:32+00:00</lastmod>
+</url>
+<url>
+  <loc>http://rowantechnologies.co.uk/pdf/paper/hida5_conference_paper.pdf</loc>
+  <lastmod>2016-02-27T16:54:04+00:00</lastmod>
+</url>
+<url>
+  <loc>http://rowantechnologies.co.uk/pdf/paper/ndt_2008_paper.pdf</loc>
+  <lastmod>2016-02-27T16:53:46+00:00</lastmod>
 </url>
 <url>
   <loc>http://rowantechnologies.co.uk/pdf/paper/cp_case_studies.pdf</loc>
-  <lastmod>2015-03-04T21:00:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <lastmod>2016-02-27T16:54:15+00:00</lastmod>
 </url>
 <url>
   <loc>http://rowantechnologies.co.uk/pdf/paper/rtl_cp2001_almshouses.pdf</loc>
-  <lastmod>2015-03-04T21:00:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <lastmod>2016-02-27T16:55:31+00:00</lastmod>
 </url>
 <url>
   <loc>http://rowantechnologies.co.uk/pdf/paper/practical_aspects_2004.pdf</loc>
-  <lastmod>2015-03-04T21:00:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <lastmod>2016-02-27T16:55:42+00:00</lastmod>
 </url>
 <url>
   <loc>http://rowantechnologies.co.uk/pdf/paper/cp_tie_bars_ring_beams.pdf</loc>
-  <lastmod>2015-03-09T09:15:25+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <lastmod>2016-02-27T16:56:06+00:00</lastmod>
 </url>
 <url>
   <loc>http://rowantechnologies.co.uk/pdf/paper/concrete_case_studies.pdf</loc>
-  <lastmod>2015-03-04T21:00:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <lastmod>2016-02-27T16:54:48+00:00</lastmod>
 </url>
 <url>
   <loc>http://rowantechnologies.co.uk/pdf/paper/reinforced_concrete_paper.pdf</loc>
-  <lastmod>2015-03-04T21:00:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <lastmod>2016-02-27T16:54:23+00:00</lastmod>
 </url>
 <url>
   <loc>http://rowantechnologies.co.uk/pdf/paper/tynmouth_battery_report_2009.pdf</loc>
-  <lastmod>2015-03-04T21:00:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <lastmod>2016-02-27T16:55:19+00:00</lastmod>
 </url>
 <url>
   <loc>http://rowantechnologies.co.uk/pdf/paper/concrete_repairs.pdf</loc>
-  <lastmod>2015-03-09T09:15:25+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <lastmod>2016-02-27T16:54:39+00:00</lastmod>
 </url>
 <url>
   <loc>http://rowantechnologies.co.uk/pdf/paper/roofs_case_studies.pdf</loc>
-  <lastmod>2015-03-04T21:00:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <lastmod>2016-02-27T16:54:19+00:00</lastmod>
 </url>
 <url>
   <loc>http://rowantechnologies.co.uk/pdf/paper/underside_lead_paper_2006.pdf</loc>
-  <lastmod>2015-03-04T21:00:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <lastmod>2016-02-27T16:53:42+00:00</lastmod>
 </url>
 <url>
   <loc>http://rowantechnologies.co.uk/pdf/paper/architects_transactions_2008.pdf</loc>
-  <lastmod>2015-03-04T21:00:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <lastmod>2016-02-27T16:56:03+00:00</lastmod>
 </url>
 <url>
   <loc>http://rowantechnologies.co.uk/pdf/paper/ct_technology_paper.pdf</loc>
-  <lastmod>2015-03-04T21:00:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <lastmod>2016-02-27T16:53:51+00:00</lastmod>
 </url>
 <url>
   <loc>http://rowantechnologies.co.uk/pdf/paper/rtl_ctp_2001gasturbines.pdf</loc>
-  <lastmod>2015-03-04T21:00:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <lastmod>2016-02-27T16:54:19+00:00</lastmod>
 </url>
 </urlset>
