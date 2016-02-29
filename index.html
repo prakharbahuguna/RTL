@@ -10,10 +10,6 @@
         aside {
           overflow-y: auto;
         }
-        figure
-        {
-          float: left;
-        }
       }
       @media (min-width: 1200px) {
         header, aside {
@@ -22,46 +18,9 @@
         aside {
           overflow-y: auto;
         }
-        #ahf-banner-wrapper > div {
-          padding-right: 22px;
-        }
       }
-      @media (max-width: 991px) {
-        #ahf-banner-wrapper > div {
-          padding-right: 0;
-        }
-      }
-      #ahf-banner-wrapper * {
-        text-align: center;
-      }
-      .panel-heading {
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 1.1;
-      }
-      #ahf-toggle {
-        position: relative;
-        float: left;
-        padding: 9px 10px;
-        margin-top: -5px;
-        margin-right: 15px;
-        margin-bottom: 3px;
-        background-color: transparent;
-        border: 1px solid #333;
-        border-radius: 4px;
-      }
-      #ahf-toggle .icon-bar {
-        background-color: #fff;
-        display: block;
-        width: 22px;
-        height: 2px;
-        border-radius: 1px;
-      }
-      #ahf-toggle .icon-bar+.icon-bar {
-        margin-top: 4px;
-      }
-      #ahf-banner {
-        background-color: #d9edf7;
+      aside {
+        background: #d9edf7 !important;
       }
     </style>
     <title>Rowan Technologies Ltd :: Home</title>
@@ -70,48 +29,6 @@
   <body>
     <!--#include file="inc/nav.html" -->
     <main class="container">
-
-      <section id="ahf-banner-wrapper" class="row">
-        <div class="col-md-12" style="padding-left: 0">
-          <div class="panel panel-info">
-            <div class="panel-heading">
-              <button id="ahf-toggle" type="button" data-toggle="collapse" data-target="#ahf-banner" aria-expanded="true" aria-controls="ahf-banner">
-                <span class="sr-only">Toggle AHF banner</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a href="monitoring.html#tab_ahf" style="color: inherit">
-                Optimising Heat Transfer and Efficiency for Boilers and Combustion Systems
-              </a>
-            </div>
-            <div class="panel-body collapse in" id="ahf-banner">
-              <h3>New Low-Cost Non-Intrusive Heat Flux and Corrosion Monitors</h3>
-              <p>
-                These stand-alone units are designed for heat flux and corrosion monitoring at point locations on boiler
-                membrane walls and other industrial applications. They use the principle of electrical resistance
-                measurement to accurately determine the real heat flux and any loss-in-thickness (corrosion or erosion) of
-                heat transfer surfaces.
-              </p>
-              <p>
-                <strong>Non-intrusive</strong> sensors are simply welded to external tube walls as opposed to <strong>intrusive</strong> heat flux probes which require tube removal and replacement.
-              </p>
-              <p>Straight-forward installation, multiple interface options with plant information systems.</p>
-              <p><strong><a href="monitoring.html#tab_ahf">Prices starting from £3500 GBP</a></strong></p>
-              <div class="row" style="display: inline-block">
-                <figure>
-                  <img src="img/news/ahf_monitor.jpg" alt="AHF Enclosure under Test" width="300" height="225">
-                  <figcaption>AHF Enclosure under Test</figcaption>
-                </figure>
-                <figure>
-                  <img src="img/news/fem_tube_cross_section.jpg" alt="Finite Element Model of Tube Wall Heat Flow – Supercritical Boiler" width="326" height="225">
-                  <figcaption>Finite Element Model of Tube Wall Heat Flow – Supercritical Boiler</figcaption>
-                </figure>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section class="row">
         <header class="jumbotron col-md-8">
@@ -175,15 +92,47 @@
         </header>
 
         <aside class="col-md-4 well">
-          <h1>Latest News</h1>
-          <h3>Thermal and Corrosion Monitoring Systems</h3>
+
+          <h2>Product Focus and Latest News</h2>
+
+          <h4><a href="monitoring.html#tab_scanner">New Mini-Scanner Systems:</a></h4>
+          <p>
+            These scanners complement our multi-enclosure corrosion and thermal scanner technology and are designed for
+            smaller monitoring areas, providing both multi-point corrosion and heat flux monitoring. All mini-scanner
+            electronics is housed in a single easy-install enclosure.
+          </p>
+
+          <figure>
+            <img src="img/photos/drax_hfc.jpg" alt="Mini-Scanner Enclosure" width="360" height="360">
+            <figcaption>Mini-Scanner Enclosure</figcaption>
+          </figure>
+
+          <h4><a href="monitoring.html#tab_hfc">New Heat Flux and Corrosion (HFC) Monitors:</a></h4>
+          <p>
+            These low-cost, stand-alone units are designed for both heat flux and corrosion monitoring at point
+            locations on boiler membrane walls and other surfaces. They use the principle of electrical resistance
+            measurement to accurately determine the real heat flux and any loss-in-thickness due to corrosion or
+            erosion.
+          </p>
+
+          <figure>
+            <img src="img/photos/hfc_enclosure_testing.jpg" alt="Active-HFC Monitor" width="360" height="270">
+            <figcaption>HFC Enclosure Tests</figcaption>
+          </figure>
+
+          <p>
+            Sensors are simply welded to external tube walls as opposed to intrusive heat flux systems that require tube
+            removal and replacement.
+          </p>
+
+          <h2>Latest News</h2>
+          <h3>Industrial Monitoring</h3>
           <p>
             Two of RTL's new monitoring systems have now been installed on a sub-critical biofuel boiler at Drax, UK.
-            These particular systems combine the capabilities of the <strong><a href="monitoring.html#tab_ahf">new
-            active heat flux (AHF) monitors</a></strong> and <strong><a href="monitoring.html#tab_ahf">mini-scanner
-            systems</a></strong> so providing both multi-point heat flux and corrosion monitoring. These systems form
-            part of an upgrade to an existing scanner system that was originally commissioned in 2001. A further AHF
-            monitor has been supplied for use on a supercritical boiler in Texas, USA.
+            These particular systems combine the capabilities of the HFC monitors and mini-scanner systems so providing
+            both multi-point heat flux and corrosion monitoring. These systems form part of an upgrade to an existing
+            scanner system that was originally commissioned in 2001. A further HFC monitor has been supplied for use on
+            a supercritical boiler in Texas, USA.
           </p>
 
           <p>
